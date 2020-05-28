@@ -1,8 +1,8 @@
 /*
-TyLib.js
-A part of the TyLib project.
-Copyright (C) 2020-present by Ty Gillespie. ALl rights reserved.
-Licensed under the unlicense.
+ * TyLib.js
+ * A part of the TyLib project.
+ * Copyright (C) 2020-present by Ty Gillespie. All rights reserved.
+ * Licensed under the unlicense.
 */
 "use strict";
 // Functions.
@@ -15,11 +15,11 @@ first; the singular option.
 second: the multiple option.
 */
 function plural(number, first, second) {
-    if (number == 1 || number == -1) {
-        return first;
-    } else {
-        return second;
-    }
+  if (number == 1 || number == -1) {
+    return first;
+  } else {
+    return second;
+  }
 }
 /*
 RandomInteger(minimum, maximum);
@@ -29,7 +29,7 @@ minimum: the minimum number.
 maximum: the maximum number.
 */
 function randomInteger(minimum, maximum) {
-    return Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+  return Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 }
 /*
 squareRoot(x);
@@ -38,5 +38,5 @@ Arguments.
 x: the number to get the square root of.
 */
 function squareRoot(x) {
-    return Math.sqrt(x);
+  return Math.sqrt(x);
 }
